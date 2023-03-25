@@ -1,0 +1,68 @@
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+.card{
+    width: 600px;
+    padding: 20px;
+    height: 50vh;
+    max-width: 82vw;
+    border-radius: 0.3cm;
+    background-position: center;
+    position: relative;
+    box-shadow: 0px 15px 48px 0px rgba(0, 0, 0, 0.3);
+}
+
+.card > h3 {
+    position: absolute;
+    bottom: 10px;
+    color: white;
+}
+
+.swip{
+    position: absolute;
+}
+
+
+
+
+.btn_container{
+    position: fixed;
+    bottom: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn_container .MuiIconButton-root {
+    background-color: white;
+    box-shadow: 0px 10px 53px 0px  rgba(0, 0, 0, 0.3) !important;
+}
+
+.Icon_replay, .Icon_close, .Icon_star_rate, .Icon_fav, .Icon_falsh_on{
+    padding: 3vw !important;
+}
+
+.Icon_replay{
+    color : #f5b748 !important
+}
+
+.Icon_close{
+    color : #ec5e6f !important
+}
+
+.Icon_star_rate{
+    color: #62b4f9 !important
+
+}
+
+.Icon_fav{
+    color: #76e2b3 !important
+}
+
+.Icon_falsh_on{
+    color: #915dd1 !important
+
+}
